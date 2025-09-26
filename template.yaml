@@ -1,7 +1,7 @@
 theme: default # default || dark
 organization: OMRON SINIC X
 twitter: '@omron_sinicx'
-title: 'Pose Estimation of a Cable-Driven Serpentine Manipulator Utilizing Intrinsic Dynamics via Physical Reservoir Computing'
+title: 'WAVE: Worm Gear-based Adaptive Variable Elasticity for Decoupling Actuators from External Forces'
 conference: IROS2025
 resources:
   paper: null
@@ -12,8 +12,8 @@ resources:
   demo: null
   huggingface: null
 description: explore a new approach to pose estimation, where intrinsic nonlinear dynamics of a lightweight cable-driven serpentine manipulator are exploited via physical reservoir computing.
-image: https://omron-sinicx.github.io/prc-arm-pose/teaser.png
-url: https://omron-sinicx.github.io/prc-arm-pose
+image: https://omron-sinicx.github.io/wave/teaser.png
+url: https://omron-sinicx.github.io/wave
 speakerdeck: null
 authors:
   - name: Kazutoshi Tanaka
