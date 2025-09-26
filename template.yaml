@@ -33,7 +33,7 @@ authors:
     position: Senior Researcher
     url: https://kazutoshi-tanaka.github.io/pages/index_eng.html
 
-contact_ids: ['omron', 1] #=> github issues, contact@sinicx.com, 2nd author
+contact_ids: ['omron', 4] #=> github issues, contact@sinicx.com, 2nd author
 affiliations:
   - OMRON SINIC X Corporation
   - Yamagata University
