@@ -1,0 +1,50 @@
+# Project Information
+title: "Pose Estimation of a Cable-Driven Serpentine Manipulator Utilizing Intrinsic Dynamics via Physical Reservoir Computing"
+authors:
+  - "Kazutoshi Tanaka"
+  - "Tomoya Takahashi"
+  - "Masashi Hamaya"
+affiliation: "OMRON SINIC X Corporation"
+year: 2025
+conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)" 
+url: https://omron-sinicx.github.io/prc-arm-pose/
+image: https://omron-sinicx.github.io/prc-arm-pose/teaser.png" 
+
+# Metadata
+tags:
+  - Robotics
+  - Manipulation
+  - Pose Estimation
+  - Physical Reservoir Computing
+  - Cable-driven Manipulator
+
+resources:
+  paper: null
+  poster: null
+  code: null
+  video: null                               # ← 無ければ必ず null に
+  blog: null
+  demo: null
+  huggingface: null
+
+# Summary
+overview: |
+  - Lightweight 9-DOF cable-driven serpentine arm (545 mm, 308 g)
+  - PRC exploits intrinsic dynamics; no joint-embedded sensors
+  - Mean pose error 4.3 mm (vs LSTM 4.4 mm; analytical 39.5 mm)
+
+
+
+# BibTeX
+bibtex: |
+  @inproceedings{tanaka2025pose,
+    title={Pose Estimation of a Cable-Driven Serpentine Manipulator Utilizing Intrinsic Dynamics via Physical Reservoir Computing},
+    author={Kazutoshi Tanaka and Tomoya Takahashi and Masashi Hamaya},
+    booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    year={2025},
+    organization={IEEE}
+  }
+
+# Acknowledgment
+acknowledgment: >
+  This work was supported by JST, PRESTO Grant Number JPMJPR22C6, Japan.
