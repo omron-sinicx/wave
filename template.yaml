@@ -11,35 +11,41 @@ resources:
   blog: null
   demo: null
   huggingface: null
-description: explore a new approach to pose estimation, where intrinsic nonlinear dynamics of a lightweight cable-driven serpentine manipulator are exploited via physical reservoir computing.
+description: present WAVE, a worm gear-based variable stiffness actuator that decouples external forces from actuators to achieve safe, compliant, and robust manipulation.
 image: https://omron-sinicx.github.io/wave/teaser.png
 url: https://omron-sinicx.github.io/wave
 speakerdeck: null
 authors:
-  - name: Kazutoshi Tanaka
-    affiliation: [1]
-    position: Senior Researcher
-    url: https://kazutoshi-tanaka.github.io/pages/index_eng.html
+  - name: Moses Gladson Selvamuthu
+    affiliation: [1, 2]
+    position: Intern
+    url: null
   - name: Tomoya Takahashi
     affiliation: [1]
     position: Project Researcher
     url: null
-  - name: Masashi Hamaya
+  - name: Riichiro Tadakuma
+    affiliation: [2]
+    position: Professor
+    url: null
+  - name: Kazutoshi Tanaka
     affiliation: [1]
-    position: Principal Investigator
-    url: https://sites.google.com/view/masashihamaya/home
+    position: Senior Researcher
+    url: https://kazutoshi-tanaka.github.io/pages/index_eng.html
+
 contact_ids: ['omron', 1] #=> github issues, contact@sinicx.com, 2nd author
 affiliations:
   - OMRON SINIC X Corporation
+  - Yamagata University
 meta: null
 
 bibtex: >
-  @inproceedings{tanaka2025pose,
-    title={Pose Estimation of a Cable-Driven Serpentine Manipulator Utilizing Intrinsic Dynamics via Physical Reservoir Computing},
-    author={Tanaka, Kazutoshi and Takahashi, Tomoya and Hamaya, Masashi},
-    booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-    year={2025},
-    organization={IEEE}
+  @inproceedings{selvamuthu2025wave,
+    author    = {Moses Gladson Selvamuthu and Tomoya Takahashi and Riichiro Tadakuma and Kazutoshi Tanaka},
+    title     = {WAVE: Worm Gear-based Adaptive Variable Elasticity for Decoupling Actuators from External Forces},
+    booktitle = {Proceedings of the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    year      = {2025},
+    publisher = {IEEE}
   }
 
 header:
@@ -49,12 +55,9 @@ header:
 
 teaser: teaser.png
 overview: |
-  We propose a pose estimation method for a lightweight 9-DOF cable-driven serpentine manipulator, 
-  utilizing physical reservoir computing (PRC) to harness the manipulator's intrinsic nonlinear dynamics. 
-  By placing all motors and sensors at the base, we reduce the moving weight to only 308 g. 
-  Our PRC-based method achieves a mean pose error of 4.3 mm, comparable to an LSTM baseline (4.4 mm), 
-  and significantly better than analytical modeling (39.5 mm). This approach opens new directions for 
-  control and perception in lightweight, flexible cable-driven robots.
+  This paper introduces WAVE (Worm Gear-based Adaptive Variable Elasticity), a novel variable stiffness actuator (VSA) that employs a non-backdrivable worm gear to decouple the driving motor from external forces. By integrating compliance directly into the mechanical design, WAVE allows robots to switch continuously between high stiffness (for precise actuation and payload handling) and low stiffness (for safe interaction and impact absorption). The worm gear transmits torque for joint actuation while passively absorbing positional errors through spring deformation, effectively protecting the motor.
+  The authors developed a modular WAVE unit and validated its stiffness model experimentally, showing that motor load approaches zero at rest even under external forces. Tests confirmed robust behavior under impact loads, contact tasks, and position tracking, demonstrating that manipulators equipped with WAVE can operate safely in contact-rich and high-load environments.
+  While limitations such as frictional losses and worm gear locking under heavy loads remain, WAVE highlights a promising approach for safe, resilient, and versatile robotic manipulation in unstructured settings.
 
 # body:
 #   - title: Media examples
